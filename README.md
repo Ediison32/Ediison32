@@ -33,3 +33,49 @@ I’m committed to writing clean, scalable code and constantly learning new tech
 ### Socials
 
 <p align="left"> <a href="https://www.github.com/Ediison32" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="Github" title="Github" /> </picture> </a> <a href="https://www.linkedin.com/in/edison-alvarez-44325323b/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" /> </picture> </a></p>
+
+<svg width="800" height="300" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Animación de la Grúa */
+    @keyframes moveCrane {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(400px); }
+    }
+    /* Animación del Contenedor (subir/bajar) */
+    @keyframes liftContainer {
+      0%, 20%, 80%, 100% { transform: translateY(0); }
+      40%, 60% { transform: translateY(-50px); }
+    }
+    /* Estrellas titilando */
+    @keyframes blink {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    .crane-arm { animation: moveCrane 10s infinite ease-in-out; }
+    .container-box { animation: liftContainer 10s infinite ease-in-out; }
+    .star { animation: blink 2s infinite; }
+  </style>
+
+  <rect width="800" height="300" fill="#0d1117"/>
+  
+  <circle class="star" cx="50" cy="50" r="1" fill="white" />
+  <circle class="star" cx="150" cy="30" r="1.5" fill="white" style="animation-delay: 0.5s"/>
+  <circle class="star" cx="300" cy="80" r="1" fill="white" style="animation-delay: 1.2s"/>
+  <circle class="star" cx="600" cy="40" r="1" fill="white"/>
+
+  <path d="M700 40C700 56.5685 686.569 70 670 70C653.431 70 640 56.5685 640 40C640 35.5 641.5 31.5 644 28C635 32 630 42 630 50C630 66.5 643.5 80 660 80C675 80 688 68 690 55C691 50 695 45 700 40Z" fill="#e1e4e8"/>
+
+  <rect x="0" y="250" width="800" height="50" fill="#161b22"/>
+  <rect x="100" y="200" width="150" height="50" fill="#30363d" rx="2"/>
+
+  <g class="crane-arm">
+    <rect x="50" y="100" width="10" height="150" fill="#f1e05a"/>
+    <rect x="50" y="100" width="120" height="8" fill="#f1e05a"/>
+    
+    <g class="container-box">
+      <line x1="150" y1="108" x2="150" y2="160" stroke="#8b949e" stroke-width="2"/>
+      <rect x="130" y="160" width="40" height="25" fill="#2496ed" rx="2"/>
+      <path d="M140 170H160M140 175H160" stroke="white" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
