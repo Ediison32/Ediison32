@@ -1,6 +1,6 @@
 # ⚡ Edison Álvarez | Software Engineer & Industrial Automation Specialist
 
-### "Transforming industrial expertise into scalable, intelligent software solutions."
+### Transforming industrial expertise into scalable, intelligent software solutions.
 
 ---
 
