@@ -1,4 +1,4 @@
-# ⚡ Edison Álvarez | Software Engineer & Industrial Automation Specialist
+# Software Engineer & Industrial Automation Specialist
 
 ### Transforming industrial expertise into scalable, intelligent software solutions.
 
@@ -7,9 +7,9 @@
 ## 🚀 About Me
 Soy un perfil híbrido con **6 años de experiencia en mantenimiento industrial** en el sector farmacéutico, ahora enfocado en la creación de ecosistemas digitales. Mi ventaja competitiva es la mentalidad de "mantenimiento crítico": escribo código robusto, escalable y preparado para fallos, tal como lo haría con un sistema de producción real.
 
-- 🤖 **Current Focus:** AI Agents, Model Context Protocol (MCP) & Industrial IoT.
-- 🏗️ **Architecting:** Soluciones con .NET, Python y automatización de flujos con n8n.
-- 🌐 **Location:** Medellín, Colombia.
+-  **Current Focus:** AI Agents, Model Context Protocol (MCP) & Industrial IoT.
+-  **Architecting:** Soluciones con .NET, Python y automatización de flujos con n8n.
+-  **Location:** Medellín, Colombia.
 
 ---
 
